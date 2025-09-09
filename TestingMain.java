@@ -3,13 +3,13 @@ public class TestingMain {
         
         // Step 0: Declare a String object with the value "Hello World"
         // You can name the reference anything you want
-
+         String s1 = "Hello World";
 
 
         // Step 1: Call length()
         // Q1. What do you expect the number printed is? Count carefully!
         // Q2. Call the method and print the result. Does it include spaces?
-
+         System.out.println(s1.length());
 
 
         // Step 2: Call indexOf("H")
@@ -17,7 +17,7 @@ public class TestingMain {
         // Q5. What happens if you search for "w"? Why is the answer different?
         // Q6. What happens if the letter is not found at all?
         // Q7. What is the index of the first letter?
-
+         System.out.println(s1.indexof("H"));
 
 
         // Step 3: Call substring(8)
