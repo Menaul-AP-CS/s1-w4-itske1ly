@@ -24,7 +24,7 @@ public class TestingMain {
         // Q7. What is printed when you use one parameter in substring?
         // Q8. Which index does it start at, and where does it stop?
         // Q9. What do you expect substring(s.length()) would print?
-
+         System.out.println(s1.substring(8));
 
 
         // Step 4: Call substring(1,3)
@@ -32,7 +32,7 @@ public class TestingMain {
         // Q11. Does the second parameter’s index get included or excluded?
         // Q12. Predict what happens if you flip them (substring(3,1)) —
         //       Will it work, or cause an error? Why?
-
+         System.out.println(s1.substring(1,3));
 
 
 
@@ -40,6 +40,6 @@ public class TestingMain {
         // Declare a String object with the value "null" <- String x = null;
         // Try some of the methods on this object, what do you get?
         // What does the error say?
-
+         System.out.println();
      }
 }
