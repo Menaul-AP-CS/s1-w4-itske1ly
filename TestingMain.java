@@ -17,7 +17,7 @@ public class TestingMain {
         // Q5. What happens if you search for "w"? Why is the answer different?
         // Q6. What happens if the letter is not found at all?
         // Q7. What is the index of the first letter?
-         System.out.println(s1.indexof("H"));
+         System.out.println(s1.indexOf("H"));
 
 
         // Step 3: Call substring(8)
