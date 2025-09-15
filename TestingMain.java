@@ -40,6 +40,8 @@ public class TestingMain {
         // Declare a String object with the value "null" <- String x = null;
         // Try some of the methods on this object, what do you get?
         // What does the error say?
-         System.out.println();
+     //bgbgbg
+        System.out.println();
      }
+
 }
