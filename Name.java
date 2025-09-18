@@ -8,7 +8,7 @@ public class Name {
        myFirst = first;
        myMiddle = middle;
        myLast = last;
-       fixFirst ( );
+       myFirst = fixCase(myFirst);
        fixMiddle ( );
        fixLast ( );
     }
@@ -22,7 +22,7 @@ public class Name {
     }
     
     // bad style
-    private void fixFirst ( ) {
+    /*private void fixFirst ( ) {
        myFirst = myFirst.toLowerCase().trim();
        myFirst = myFirst.substring(0,1).toUpperCase() + myFirst.substring(1);
     }
@@ -37,6 +37,10 @@ public class Name {
     private void fixLast ( ) {
        myLast = myLast.toLowerCase().trim();
        myLast = myLast.substring(0,1).toUpperCase() + myLast.substring(1);
+    }*/
+    private String fixCase(String np){
+      np = np.toLowerCase().trim();
+      np = np.substring(o,1).toUpperCase() + myLast.substring(1);
     }
  
  }
