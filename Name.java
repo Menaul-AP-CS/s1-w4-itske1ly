@@ -9,7 +9,7 @@ public class Name {
        myMiddle = middle;
        myLast = last;
        myFirst = fixCase(myFirst);
-       fixMiddle ( );
+       myFirst = fixCase(myMiddle);
        fixLast ( );
     }
     
