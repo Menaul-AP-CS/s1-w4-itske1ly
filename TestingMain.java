@@ -41,7 +41,11 @@ public class TestingMain {
         // Try some of the methods on this object, what do you get?
         // What does the error say?
      //bgbgbg
-        System.out.println();
+      int a = 5;
+      int b = 8;
+      int c = 3;
+        System.out.println(a + b / c * 2);
+        System.out.println(5.0+2/4);
      }
 
 }
