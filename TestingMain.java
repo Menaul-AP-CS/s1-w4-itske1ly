@@ -17,7 +17,7 @@ public class TestingMain {
         // Q5. What happens if you search for "w"? Why is the answer different?
         // Q6. What happens if the letter is not found at all?
         // Q7. What is the index of the first letter?
-         System.out.println(s1.indexOf("H"));
+         System.out.println(s1.indexOf("na"));
 
 
         // Step 3: Call substring(8)
@@ -32,7 +32,7 @@ public class TestingMain {
         // Q11. Does the second parameter’s index get included or excluded?
         // Q12. Predict what happens if you flip them (substring(3,1)) —
         //       Will it work, or cause an error? Why?
-         System.out.println(s1.substring(1,3));
+         System.out.println(s1.substring(8,10));
 
 
 
